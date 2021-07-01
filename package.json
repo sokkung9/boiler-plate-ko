@@ -79,6 +79,7 @@
   },
   "scripts": {
     "start": "node index.js",
+    "start-nodemon": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -90,5 +91,8 @@
   "bugs": {
     "url": "https://github.com/sokkung9/boiler-plate-ko/issues"
   },
-  "homepage": "https://github.com/sokkung9/boiler-plate-ko#readme"
+  "homepage": "https://github.com/sokkung9/boiler-plate-ko#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
 }
